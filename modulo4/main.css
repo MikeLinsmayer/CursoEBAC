@@ -4,18 +4,13 @@
     padding: 0;    
 }
 
-body {
-    background-color: gray;
+header li {
+    display: inline;
+
 }
 
-#sports h2 {
-    color: green;
-}
+.container {
+    width: 1366px;
+    margin: 0 auto;
 
-#economy h2 {
-    color: gold;
-}
-
-.creation-date {
-    color: teal;
 }
