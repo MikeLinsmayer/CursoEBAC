@@ -26,6 +26,15 @@ header {
     background-color: black;
 }
 
+header ol {
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    margin-bottom: 8px;
+    text-decoration:solid
+
+}
+
 header li {
     display: inline;
     margin-left: 30px;
