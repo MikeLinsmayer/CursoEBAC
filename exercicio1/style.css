@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1,
+h2,
+h3 {
+    font-family: "Anton", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+body,
+p,
+section {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    padding: 1px 0;
+    background-color: black;
+}
+
+header li {
+    display: inline;
+    margin-left: 30px;
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    color: #777;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+h2 {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.img-sobre {
+    justify-items: center;
+    padding: 0;
+    margin: auto;
+    border-radius: 8px;
+    width: 1280px;
+    height: 720px;
+    margin-top: 80px;
+}
+
+.img-about {
+    padding: 0;
+    margin: auto;
+    display: block;
+    background-color: black;
+    width: 1250px;
+    height: 750px;
+    border-radius: 10px;
+    justify-items: center;
+}
+
+.op1 {
+    width: 380px;
+    height: 620px; 
+}
+
+.op2 {
+    width: 380px;
+    height: 620px; 
+}
+
+.op3 {
+    width: 380px;
+    height: 620px; 
+}
+
+#fundo-logo,
+#logo {
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+
+.social-links img{
+    height: 30px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.social-links img {
+    display: inline;
+    margin: 5px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 120px;
+    width: 320px;
+    
+}
+
+form button {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+form button:hover {
+    background-color: white;
+    color: black;
+}
+
+input:focus, textarea:focus {
+    outline-color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 16px 0;
+}
+
+footer p {
+    text-align: center;
+}

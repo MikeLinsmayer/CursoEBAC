@@ -103,7 +103,7 @@ section p {
     display: block;
 }
 
-.contact-methods {
+.contact {
     display: flex;
     justify-content: space-between;
 }
